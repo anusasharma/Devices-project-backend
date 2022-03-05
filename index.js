@@ -42,7 +42,7 @@ mongoDB.once('open', ()=>{
     console.log('Connected to MongoDB...');
 });
 // Handling the get request
-app.get("/", (req, res) => {
+app.get("/", async (req, res) => {
 
     MongoClient.connect(url, function(err, db) {
         if (err) throw err;
