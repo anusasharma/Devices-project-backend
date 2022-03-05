@@ -20,11 +20,28 @@ let passportLocal = require('passport-local');
 let localStrategy = passportLocal.Strategy;
 let flash = require('connect-flash');
 
+function normalizePort(val) {
+    var port = parseInt(val, 10);
+
+    if (isNaN(port)) {
+        // named pipe
+        return val;
+    }
+
+    if (port >= 0) {
+        // port number
+        return port;
+    }
+
+    return false;
+}
+
 //Database setup
 let mongoose = require('mongoose');
 // Importing mongoose module
 // var mongoose = require("mongoose");
-const port = 3000;
+// const port = 3000;
+var port = normalizePort(process.env.PORT || '3000');
 const app = express();
 app.use(cors())
 
