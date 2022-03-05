@@ -28,10 +28,6 @@ const port = 3000;
 const app = express();
 app.use(cors())
 
-app.get('/', async (req, res, next) => {
-    res.send('Hello')
-})
-
 var MongoClient = require('mongodb').MongoClient;
 
 

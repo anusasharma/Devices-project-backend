@@ -24,13 +24,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../devices-project-frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Devices-project\devices-project-backend" />
       <recent name="D:\Unicom\test" />
     </key>
   </component>
@@ -44,7 +45,7 @@
       <updated>1646322907989</updated>
       <workItem from="1646322910581" duration="3021000" />
       <workItem from="1646418228577" duration="2722000" />
-      <workItem from="1646491934385" duration="1541000" />
+      <workItem from="1646491934385" duration="1666000" />
     </task>
     <servers />
   </component>
@@ -52,6 +53,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1646494158869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1646494158869" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1646491940756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
