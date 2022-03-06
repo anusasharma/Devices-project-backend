@@ -1,6 +1,6 @@
 
 //3rd party packages
-let createError = require('http-errors');
+// let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
 let cookieParser = require('cookie-parser');
@@ -64,9 +64,9 @@ app.get("/", async (req, res) => {
 });
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
+// app.use(function(req, res, next) {
+//   next(createError(404));
+// });
 
 
 // Starting the server on the 80 port
