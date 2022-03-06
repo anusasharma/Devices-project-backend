@@ -24,7 +24,7 @@ let flash = require('connect-flash');
 let mongoose = require('mongoose');
 // Importing mongoose module
 // var mongoose = require("mongoose");
-let port = process.env.PORT || 1234;
+let port = process.env.PORT || 3000;
 
 const app = express();
 app.use(cors())
