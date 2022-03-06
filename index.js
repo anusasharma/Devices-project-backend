@@ -2,23 +2,23 @@
 //3rd party packages
 // let createError = require('http-errors');
 let express = require('express');
-let path = require('path');
-let cookieParser = require('cookie-parser');
-let logger = require('morgan');
+// let path = require('path');
+// let cookieParser = require('cookie-parser');
+// let logger = require('morgan');
 let cors = require('cors');
 
 //modules for authentication
-let session = require('express-session');
-let passport = require('passport');
+// let session = require('express-session');
+// let passport = require('passport');
 
 
-let passportJWT = require('passport-jwt');
-let JWTStrategy = passportJWT.Strategy;
-let ExtractJWT = passportJWT.ExtractJwt;
+// let passportJWT = require('passport-jwt');
+// let JWTStrategy = passportJWT.Strategy;
+// let ExtractJWT = passportJWT.ExtractJwt;
 
-let passportLocal = require('passport-local');
-let localStrategy = passportLocal.Strategy;
-let flash = require('connect-flash');
+// let passportLocal = require('passport-local');
+// let localStrategy = passportLocal.Strategy;
+// let flash = require('connect-flash');
 
 //Database setup
 let mongoose = require('mongoose');
