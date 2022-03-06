@@ -4,7 +4,8 @@
   "description": "y",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "prestart": "next build",
+    "start": "next start -p ${PORT}"
   },
   "keywords": [],
   "author": "y",
